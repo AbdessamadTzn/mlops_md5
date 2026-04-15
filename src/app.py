@@ -4,7 +4,7 @@ import joblib
 import pandas as pd
 import os
 
-app = FastAPI(title="Churn Prediction API", version="1.0.0")
+app = FastAPI(title="Churn Prediction API", version="2.0.0")
 
 # Chargement du modèle au démarrage
 MODEL_PATH = "models/model.pkl"
